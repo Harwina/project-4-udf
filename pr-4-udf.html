@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // ==============Question-1=================
+        // let a = prompt("Enter any number:");
+
+        // function checkpn(number) {
+        //     if (number > 0) {
+        //         console.log("The number is positive.");
+        //     } else if (number < 0) {
+        //         console.log("The number is negative.");
+        //     } else {
+        //         console.log("invalid number");
+        //     }
+        //     return 1;
+        // }
+
+        //  checkpn(a);
+
+        // =================Question-2==================
+
+        //         function checkPn() {
+        //     let number = prompt("Enter a number:");
+
+        //     if (isNaN(number)) {
+        //         console.log("Invalid input. Please enter a valid number.");
+        //     } else if (number > 0) {
+        //         console.log(number + " is a positive number.");
+        //     } else if (number < 0) {
+        //         console.log(number + " is a negative number.");
+        //     } else {
+        //         console.log(number + " is neither positive nor negative.");
+        //     }
+        // }
+
+        // checkPn();
+        // ================Question-3=======================
+        // let num1 =prompt("Enter the first number:");
+        // let num2 =prompt("Enter the second number:");
+        // let num3 =prompt("Enter the third number:");
+        // let num4 =prompt("Enter the fourth number:");
+
+        // function checkgt() {
+        //     let greatest;
+
+        //     if (num1 > num2) {
+        //         if (num1 > num3) {
+        //             if (num1 > num4) {
+        //                 greatest = num1;
+        //             } else {
+        //                 greatest = num4;
+        //             }
+        //         } else {
+        //             if (num3 > num4) {
+        //                 greatest = num3;
+        //             } else {
+        //                 greatest = num4;
+        //             }
+        //         }
+        //     } else {
+        //         if (num2 > num3) {
+        //             if (num2 > num4) {
+        //                 greatest = num2;
+        //             } else {
+        //                 greatest = num4;
+        //             }
+        //         } else {
+        //             if (num3 > num4) {
+        //                 greatest = num3;
+        //             } else {
+        //                 greatest = num4;
+        //             }
+        //         }
+        //     }
+
+        //     return greatest;
+        // }
+
+        // let greatestNumber = checkgt();
+        // alert(`The greatest number is: ${greatestNumber} `);
+        // ======================Question-4========================
+        // function checkmaxnum(a,b,c,d){
+        //     if(a>b && a>c && a>d){
+        //         console.log(`maximum num is ${a}`);
+        //     }else if(b>a && b>c && b>d){
+        //         console.log(`maximum num is ${b}`);
+        //     }else if(c>a && c>b && c>d){
+        //         console.log(`maximum nu is ${c}`);
+        //     }else{
+        //         console.log(`maximum num is ${d}`);
+        //     }
+        // }
+        // let num1=prompt("enter 1st num:");
+        // let num2=prompt("enter 2nd num:");
+        // let num3=prompt("enter 3rd num:");
+        // let num4=prompt("enter 4th num:");
+
+        // checkmaxnum(num1,num2,num3,num4); 
+        // =======================Question-5======================
+
+        // function add(a,b) {
+        //     return(a+b);
+        // }
+        // function sub(a,b) {
+        //     return(a-b);
+        // }
+        // function multi(a,b) {
+        //     return(a*b);
+        // }
+        // function div(a,b){
+        //     if(a!==0 && b!==0){
+        //         return(a/b);
+        //     }else{
+        //         return "error by division zero"
+        //     }
+        // }
+        // let num1=parseInt(prompt("1"));
+        // let num2=parseInt(prompt("2"));
+
+        // let addition=add(num1,num2);
+        // let substraction=sub(num1,num2);
+        // let multiplication=multi(num1,num2);
+        // let division=div(num1,num2);
+
+        // alert(`addition of this two num=${addition}`);
+        // alert(`substraction of this two num=${substraction}`);
+        // alert(`multiplication of this two num=${multiplication}`);
+        // alert(`division of this two num=${division}`);
+        // ====================Question-6===========================
+        // let c;
+        // let swap =(a,b)=>{c=a,a=b,b=c; return[a,b];}
+
+        // let num1 = parseInt(prompt("Enter the 1st number:"));
+        // let num2 = parseInt(prompt("Enter the 2nd number:"));
+
+        // let swaping=swap(num1,num2);
+        // alert(swaping);
+        // ========================Question-7===========================
+        //  let greatnum = (a,b,c) =>{
+        //     let greatest;
+        //     if(a>b){
+        //         if(a>c){
+        //             greatest=a;
+        //         }else{
+        //             greatest=c;
+        //         }
+        //     }else{
+        //         if(b>c){
+        //             greatest=b;
+        //         }else{
+        //             greatest=c;
+        //         }
+        //     }
+        //     return greatest;
+        //  }
+
+        //  let num1 = parseInt(prompt("Enter the 1st number:"));
+        //     let num2 = parseInt(prompt("Enter the 2nd number:"));
+        //     let num3 = parseInt(prompt("Enter the 3rd number:"));
+
+        //     let result=greatnum(num1,num2,num3);
+        //     alert(`greatest number is = ${result}`);
+
+
+        // ======================Question-8=========================
+
+        // function calc(a, b, select) {
+        //     let result;
+        //     switch (select) {
+        //         case '+':
+        //             result = (a + b);
+        //             break;
+        //         case '-':
+        //             result = a - b;
+        //             break;
+        //         case '*':
+        //             result = a * b;
+        //             break;
+        //         case '/':
+        //             if (b !== 0) {
+        //                 result = a / b;
+        //             } else {
+        //                 result = 'error by division zoro';
+        //             }
+        //             break;
+        //         default:
+        //             result = 'envalid operation';
+        //     }
+        //     return result;
+        // }
+        // let num1 = parseInt(prompt("Enter the 1st number:"));
+        // let num2 = parseInt(prompt("Enter the 2nd number:"));
+        // let choice = prompt("Enter the operation (+, -, *, /):");
+
+        // let ans=calc(num1,num2,choice);
+        // alert(`ans=${ans}`);
+    // ===========================Question-9=============================
+
+   function age(n){
+    let result;
+    if(n>18){
+        result='you are eligible for vote';
+    }else{
+       if(n<18 && n!==0){
+        result='you are not eligible for vote';
+       }else{
+        result='enter valid number';
+       }
+    }
+    return result;
+   }
+
+   let a=parseInt(prompt("enter your age"));
+
+   let ans=age(a);
+   alert(`${ans}`);
+
+
+
+    </script>
+</body>
+
+</html>
